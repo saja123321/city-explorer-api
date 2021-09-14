@@ -48,14 +48,6 @@ class Forecast {
         this.description = description
     }
 }
-/* "title": "Sleepless in Seattle",
- "overview": "A young boy who",
- "average_votes": "6.60",
- "total_votes": "881",
- "image_url": "https://image.tmdb.org/t/p/w500/afkYP15OeUOD0tFEmj6VvejuOcz.jpg",
-  "popularity": "8.2340",
-  "released_on": "1993-06-24"
-  */
 
 class Movie {
     constructor(title, overview, average_votes, total_votes, image_url, released_on) {
