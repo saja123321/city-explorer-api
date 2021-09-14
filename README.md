@@ -1,13 +1,15 @@
 # Project Name
 
 **Author**: Your Name Goes Here
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 2.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
 
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
 
-applicatin ask a user to enter a city name to desplay its data, map and the weather history
+applicatin ask a user to enter a city name to desplay its data, map and the weather history from own api
+
+- update the wether data to get it from an weather API
 
 ## Getting Started
 
@@ -31,12 +33,13 @@ fremwork - express
 
 14-09-2001 5:00pm - finish the api
 14-09-2001 11:00pm - finish the mearge the api with the front end
+15-09-2001 5:00pm - get the weather data from an api
 
 ## Credit and Collaborations
 
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
----
+## [this link ](https://stackoverflow.com/questions/53846709/how-do-i-use-axios-within-expressjs) helps me to mearge the express with axios (i took hours to solve it )
 
 Name of feature:. _Weather (placeholder)_
 
@@ -59,3 +62,27 @@ Start time: **9:30**
 Finish time: **10:30**
 
 Actual time needed to complete: **2 hours**
+
+---
+
+Name of feature: _Weather (live)_
+
+Estimate of time needed to complete: **2 hours**
+
+Start time: **3:00**
+
+Finish time: **5:00**
+
+Actual time needed to complete: **half an hour**
+
+---
+
+Name of feature: _Movies_
+
+Estimate of time needed to complete: **2 hours**
+
+Start time: **6:10**
+
+Finish time: \*\*\*\*
+
+Actual time needed to complete: **half an hour**
