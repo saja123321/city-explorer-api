@@ -40,6 +40,7 @@ fremwork - express
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
 ## [this link ](https://stackoverflow.com/questions/53846709/how-do-i-use-axios-within-expressjs) helps me to mearge the express with axios (i took hours to solve it )
+## [this link ](https://www.stanleyulili.com/node/node-modules-import-and-use-functions-from-another-file/) helps me to Import and use Functions from file to Another File
 
 Name of feature:. _Weather (placeholder)_
 
@@ -86,3 +87,27 @@ Start time: **6:10pm**
 Finish time: **2:00am**
 
 Actual time needed to complete: **8 hours**
+
+---
+
+Name of feature: _Modularize the back-end codebase._
+
+Estimate of time needed to complete: half an hour
+
+Start time: **2:00pm**
+
+Finish time: **2:20am**
+
+Actual time needed to complete: ** half an hour **
+
+--------------------------------------------------
+
+Name of feature: _Modularize the front-end codebase._
+
+Estimate of time needed to complete: half an hour
+
+Start time: **2:30pm**
+
+Finish time: **3:00am**
+
+Actual time needed to complete: ** half an hour **
