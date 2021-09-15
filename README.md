@@ -81,8 +81,8 @@ Name of feature: _Movies_
 
 Estimate of time needed to complete: **2 hours**
 
-Start time: **6:10**
+Start time: **6:10pm**
 
-Finish time: \*\*\*\*
+Finish time: **2:00am**
 
-Actual time needed to complete: **half an hour**
+Actual time needed to complete: **8 hours**
