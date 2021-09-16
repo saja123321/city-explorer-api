@@ -87,3 +87,15 @@ Estimate of time needed to complete: half an hour
 Start time: **2:30pm**
 Finish time: **3:00am**
 Actual time needed to complete: ** half an hour **
+
+---------------------------
+
+Name of feature: add cache
+
+Estimate of time needed to complete: 1 houre
+
+Start time: 3:00 pm
+
+Finish time: 4 :00 pm
+
+Actual time needed to complete: 1 houre
