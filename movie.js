@@ -16,12 +16,9 @@ class Movie {
         this.released_on = released_on
     }
 }
-
-
 let showMovie = async (req, res) => {
     const api_key = req.query.api_key;
     const query = req.query.query;
-
     let url = `https://api.themoviedb.org/3/search/movie?api_key=${api_key}&query=${query}`;
     let response = await axios.get(url);
     let movieData = response.data.results;
@@ -30,5 +27,4 @@ let showMovie = async (req, res) => {
     )
     res.status(200).json(MovieObj);
 }
-
 module.exports = { Movie, showMovie };
