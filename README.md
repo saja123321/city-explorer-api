@@ -88,7 +88,7 @@ Start time: **2:30pm**
 Finish time: **3:00am**
 Actual time needed to complete: ** half an hour **
 
----------------------------
+---
 
 Name of feature: add cache
 
