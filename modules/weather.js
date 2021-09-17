@@ -1,9 +1,9 @@
 'use strict';
-let WEATHER_API_KEY = '09b034f885484632854c033f1e72519d'
+let WEATHER_API_KEY = process.env.WEATHER_API_KEY
 let cache = require('./cache.js');
 const axios = require('axios');
 module.exports = getWeather;
-
+getWeather(30, 35)
 function getWeather(latitude, longitude) {
     const key = 'weather-' + latitude + longitude;
     const url = `http://api.weatherbit.io/v2.0/forecast/daily/?key=${WEATHER_API_KEY}&lang=en&lat=${latitude}&lon=${longitude}&days=5`;
@@ -17,7 +17,6 @@ function getWeather(latitude, longitude) {
         cache[key].data = axios.get(url)
             .then(response => parseWeather(response.data));
     }
-
     return cache[key].data;
 }
 let weatherSummaries = {};
@@ -26,7 +25,8 @@ function parseWeather(weatherData) {
         weatherSummaries = weatherData.data.map(day => {
             return new Weather(day);
         });
-        module.exports = { weatherSummaries }
+
+        console.log(weatherSummaries)
 
         return Promise.resolve(weatherSummaries);
     } catch (e) {
@@ -41,4 +41,3 @@ class Weather {
         this.time = day.datetime;
     }
 }
-console.log(weatherSummaries + " from weather")
